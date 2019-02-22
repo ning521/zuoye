@@ -1,0 +1,167 @@
+.mask{
+    width: 7.5rem;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 11;
+}
+/*登录框*/
+.box{
+    width: 7.5rem;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: revert;
+    background-image: url("../img/登录背景.png");
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.register{
+    width: 1.53rem;
+    height: 0.54rem;
+    background-color: #1981eb;
+    text-align: center;
+    line-height: 0.54rem;
+    font-size: 0.28rem;
+    color: #ffffff;
+    border-radius: 0.27rem;
+    position: absolute;
+    top:0.59rem;
+    right:0.39rem;
+    z-index: 12;
+}
+.informationBox{
+    width: 5.61rem;
+    height: 4.16rem;
+    position: absolute;
+    top:4rem;
+    right:0.94rem;
+}
+.information{
+    width: 5.61rem;
+    height: 4.16rem;
+    background-color: #ffffff;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem
+    rgba(0, 0, 0, 0.38);
+    border-radius: 0.1rem;
+    position: absolute;
+    top:4.4rem;
+    right:0.94rem;
+    z-index: 12;
+}
+.shadow{
+    width: 5.07rem;
+    height: 3.92rem;
+    background-color: #ffffff;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem
+    rgba(0, 0, 0, 0.38);
+    border-radius: 0.1rem;
+    opacity: 0.41;
+    position: absolute;
+    top:4.84rem;
+    right:1.21rem;
+    z-index: 12;
+}
+.shadow1{
+    width: 4.38rem;
+    height: 3.62rem;
+    background-color: #ffffff;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem
+    rgba(0, 0, 0, 0.38);
+    border-radius: 0.1rem;
+    opacity: 0.42;
+    position: absolute;
+    top:5.34rem;
+    right:1.56rem;
+    z-index: 12;
+}
+.name{
+    width: 100%;
+    height: 0.5rem;
+    margin-top: 0.45rem;
+}
+.name img{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.79rem;
+}
+.name1{
+    width: 3.27rem;
+    height: 0.5rem;
+    border: solid 0.03rem #1981eb;
+    border-radius: 0.235rem;
+    font-size: 0.2rem;
+    color: #dddddd;
+    margin-left: 1.55rem;
+}
+.name1 input{
+    width: 2.8rem;
+    height: 0.3rem;
+    margin-left: 0.24rem;
+    margin-top: 0.08rem;
+    border: none;
+    font-size: 0.18rem;
+}
+input:focus{
+    outline: none;
+    font-size: 0.18rem;
+}
+.password{
+    width: 3rem;
+    height: 0.3rem;
+    margin-left: 1.75rem;
+    display: flex;
+    margin-top: 0.36rem;
+    justify-content: space-around;
+}
+.login input{
+    width: 2.57rem;
+    height: 0.54rem;
+    background-color: #666;
+    font-size: 0.28rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.54rem;
+    border-radius: 0.27rem;
+    margin: 0 auto;
+    margin-top: 0.44rem;
+    margin-left: 1.69rem;
+}
+/*第三方登录*/
+.thirdLogin{
+    width: 4rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 9rem;
+    left:1.75rem;
+    z-index: 12;
+    font-size: 0.3rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.5rem;
+}
+.thirdLogin i{
+    font-size: 0.6rem;
+    display: block;
+    font-family: iconfont;
+    color: #1981eb;
+}
+.photo{
+    width: 3.96rem;
+    height: 0.8rem;
+    position: absolute;
+    top: 9.8rem;
+    left:1.81rem;
+    z-index: 12;
+    display: flex;
+    justify-content: space-between;
+}
+.photo img{
+    width: 0.8rem;
+    height: 0.8rem;
+}

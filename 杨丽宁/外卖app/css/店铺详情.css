@@ -1,0 +1,265 @@
+/*头部开始*/
+.header{
+    width: 7.5rem;
+    height: 1.57rem;
+    background-color: #1981eb;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.container{
+    width: 6.86rem;
+    height: 0.39rem;
+    margin: 0 auto;
+    margin-top: 0.29rem;
+}
+.container p{
+    height: 0.29rem;
+    display: block;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.3rem;
+    color: #fdfdfd;
+    font-weight: normal;
+    font-stretch: normal;
+    float: left;
+    margin-left: 1.5rem;
+}
+.return{
+    width: 0.39rem;
+    height: 0.39rem;
+    font-family: iconfont;
+    float: left;
+    font-size: 0.39rem;
+    color: white;
+}
+.search{
+    width: 0.39rem;
+    height: 0.39rem;
+    font-family: iconfont;
+    float: right;
+    font-size: 0.39rem;
+    color: #fff;
+}
+.more{
+    height: 0.35rem;
+    font-family: iconfont;
+    float: right;
+    font-size: 0.39rem;
+    color: #fff;
+}
+/*头部结束*/
+/*标题开始*/
+.nav{
+    width: 7.02rem;
+    height: 1.81rem;
+    background-color: #fdfdfd;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem  rgba(0, 0, 0, 0.75);
+    border-radius: 0.1rem;
+    position: absolute;
+    top:1.05rem;
+    left:0.24rem;
+}
+.titleImg{
+    height: 1rem;
+    margin-top: 0.355rem;
+    margin-left: 0.2rem;
+}
+.rightText{
+    width: 5rem;
+    height: 1.71rem;
+    float: right;
+}
+.title{
+    font-size: 0.22rem;
+    margin-top: 0.12rem;
+}
+.score{
+    width:0.99rem;
+    height:0.15rem;
+}
+.sales{
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 0.1rem;
+    margin-right: 0.18rem;
+}
+.time{
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.reduction{
+    height: 0.24rem;
+    display: block;
+    margin-top:0.06rem ;
+    margin-right: 0.05rem;
+    float: left;
+}
+.jian{
+    margin-top: 0.05rem;
+    display: block;
+
+}
+.notice{
+    margin-top: 0.02rem ;
+    font-size: 0.18rem;
+}
+.sales i{
+    font-size: 0.3rem;
+    font-family: iconfont;
+}
+/*标题结束*/
+/*点餐开始*/
+.order{
+    width: 7.06rem;
+    height: 0.49rem;
+    border-bottom: 0.03rem solid #e3e3e3;
+    margin-left:0.21rem;
+    margin-top: 3.48rem;
+    display: flex;
+    justify-content: space-around;
+}
+.order p{
+    width: 0.6rem;
+    height: 0.49rem;
+    font-size: 0.26rem;
+    color: #000000;
+}
+.selection{
+    border-bottom: solid 0.05rem #187de4;
+}
+/*点餐结束*/
+/*左侧列表开始*/
+.choose{
+    width: 1.41rem;
+    height: 12rem;
+    background: #eeeeee;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+.choose p{
+    width: 1.41rem;
+    height: 0.76rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #000000;
+    text-align: center;
+    line-height: 0.76rem;
+}
+.commodity{
+    width: 5.41rem;
+    height: 8.35rem;
+    float: left;
+}
+.commodity p{
+    font-size: 0.24rem;
+    margin: 0.12rem 0 0 0.12rem;
+}
+.main{
+    width: 7.5rem;
+    height:8.35rem;
+}
+.drink{
+    width:5.14rem ;
+    height:7.8rem;
+    margin-top: 0.12rem;
+}
+.drink1{
+    width:5.14rem;
+    height: 2.5rem;
+    margin-top: 0.12rem;
+    position: relative;
+}
+.drink1 img{
+    width: 1.83rem;
+    height: 1.21rem;
+    margin-top: 0.3rem;
+    float: left;
+}
+.text{
+    width: 3.29rem;
+    height: 100%;
+    float: right;
+}
+.text li{
+    font-size: 0.18rem;
+
+}
+.name{
+    font-size: 0.26rem;
+    margin-top: 0.4rem;
+    display: block;
+    margin-bottom: 0.08rem;
+}
+.red{
+    color: red;
+    margin-top: 0.12rem;
+}
+.jia{
+    width: 0.29rem;
+    height: 0.29rem;
+    font-family: iconfont;
+    color:#1981eb;
+    font-size: 0.25rem;
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0;
+}
+.white{
+    background: #fff;
+}
+/*底部开始*/
+.footer{
+    width: 7.5rem;
+    height: 1.01rem;
+    background-color: #696767;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    line-height: 1.01rem;
+}
+.footer i{
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+}
+.leftText{
+    font-size: 0.24rem;
+    position: absolute;
+    top:0;
+    left:1.61rem;
+    color: white;
+   list-style: none;
+}
+.leftText1{
+    font-size: 0.18rem;
+    position: absolute;
+    top:0.3rem;
+    left:1.61rem;
+    color: white;
+}
+.right{
+    width: 2.24rem;
+    height: 1.01rem;
+    background-color: #a4a1a1;
+    float:right;
+}
+.right p{
+    font-size: 0.32rem;
+    color: #ffffff;
+    text-align: center;
+}
+.right p>a{
+    color: #ffffff;
+}
+.
+.cart{
+    font-family: iconfont;
+    margin-left: 0.42rem;
+    color: white;
+    font-size: 0.64rem;
+    margin-top:0.185rem ;
+}

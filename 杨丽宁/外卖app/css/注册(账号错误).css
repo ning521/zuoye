@@ -1,0 +1,52 @@
+.tip{
+    width: 5.61rem;
+    height:0.24rem;
+    margin-top: 0.12rem;
+    margin-bottom: 0.12rem;
+}
+.tip img{
+    width: 0.22rem;
+    height: 0.22rem;
+    float: left;
+    margin-left: 1.68rem;
+    margin-top: 0.08rem;
+    margin-right: 0.12rem;
+}
+.tip p{
+    float: left;
+    font-size: 0.18rem;
+    color: #fb8585;
+}
+.margin{
+    width: 5.61rem;
+    height: 0.5rem;
+    position: relative;
+}
+.zh{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top:0;
+    left: 0.79rem;
+}
+.margin1{
+    width: 3.27rem;
+    height: 0.5rem;
+    border: solid 0.03rem #1981eb;
+    border-radius: 0.235rem;
+    font-size: 0.2rem;
+    color: black;
+    margin-left: 1.55rem;
+}
+.margin1 input{
+    width: 2.5rem;
+    height: 0.3rem;
+    margin-left: 0.24rem;
+    margin-top: 0.08rem;
+    border: none;
+    font-size: 0.18rem;
+}
+input:focus{
+    outline: none;
+    font-size: 0.18rem;
+}

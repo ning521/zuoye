@@ -1,0 +1,124 @@
+/*头部开始*/
+.left{
+    position: absolute;
+    top:0;
+    left:0.56rem;
+    color: white;
+    font-size: 0.3rem;
+}
+.header{
+    width: 7.5rem;
+    height: 4.21rem;
+    background-color: #1981eb;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 33;
+}
+#center{
+    margin-left: 2.39rem;
+}
+/*配送信息*/
+.information{
+    width: 6.86rem;
+    height: 1.69rem;
+    margin: 0 auto;
+}
+.information li:nth-child(1){
+    font-size: 0.18rem;
+    color: #fdfdfd;
+    padding-top: 0.41rem;
+}
+.information li{
+    font-size: 0.24rem;
+    color: #fdfdfd;
+}
+/*送达时间*/
+.serviceTime{
+    width: 7.05rem;
+    height: 1.29rem;
+    background-color: #fdfdfd;
+    margin: 0 auto;
+}
+.sdsj{
+    width: 6.38rem;
+    height: 0.645rem;
+    border-bottom: solid 0.03rem #e3e3e3;
+    margin: 0 auto;
+    line-height: 0.645rem;
+    display: flex;
+    justify-content:space-between;
+}
+.sdsj p{
+    font-size: 0.24rem;
+    color: #000000;
+}
+.sdsj i{
+    float: right;
+    font-size: 0.26rem;
+    font-family: iconfont;
+}
+#jksd{
+    color: #1981eb;
+}
+.bottom{
+    border: none;
+}
+#alipay{
+    color: #1981eb;
+}
+/*头部完*/
+/*内容开始*/
+.mianBox{
+    width: 7.5rem;
+    height: 7.51rem;
+    position: absolute;
+    top:4.21rem;
+    left: 0;
+}
+.mainTitle{
+    font-size: 0.3rem;
+    color: #000000;
+    margin:0.24rem;
+}
+.content{
+    width: 6.2rem;
+    height: 1.21rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.21rem;
+    margin-bottom: 0.24rem;
+}
+.content img{
+    width: 1.83rem;
+    height: 1.21rem;
+}
+.content p{
+    font-size: 0.24rem;
+}
+.packet{
+    width: 6.2rem;
+    height:0.3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.24rem;
+}
+.packet img{
+    height: 0.3rem;
+}
+.packet p{
+    font-size: 0.18rem;
+}
+.packet i{
+    font-size: 0.18rem;
+    font-family: iconfont;
+}
+.remarks{
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 0.65rem;
+    margin-bottom: 0.59rem;
+}

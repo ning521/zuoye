@@ -1,0 +1,80 @@
+.bigbox{
+    width: 100%;
+    height: 100%;
+}
+.mask{
+    width: 7.5rem;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 67;
+}
+/*指纹支付*/
+.fingerprint{
+    width: 5.19rem;
+    height: 4.55rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    position: absolute;
+    top:4.4rem;
+    left: 1.16rem;
+    z-index: 68;
+}
+.fingerprintText1{
+    width: 100%;
+    height: 0.84rem;
+    border-bottom: solid 0.03rem #e5e5e5;
+    line-height: 0.84rem;
+    /*padding-top: 0.38rem;*/
+}
+.fingerprintText1 i{
+    font-family: iconfont;
+    font-size: 0.4rem;
+    color: #1981eb;
+    float: left;
+    margin-right: 1.1rem;
+}
+.fingerprintText1 p{
+    font-size: 0.3rem;
+    color: #1981eb;
+    float: left;
+}
+.fingerprintText1 p>a ,.fingerprintText2 p>a{
+    color: #1981eb;
+}
+.fingerprintText2{
+    width: 100%;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    color: #8d8d8d;
+}
+.zhiwen{
+    width: 5.19rem;
+    height: 1.4rem;
+    font-size: 1.5rem;
+    font-family: iconfont;
+    color: #1a77ff;
+    text-align: center;
+    margin-bottom: 0.24rem;
+}
+.font{
+    font-size: 0.18rem;
+}
+.footer1{
+    width: 7.5rem;
+    height: 1.01rem;
+    background-color: #696767;
+    position: absolute;
+    bottom:0 ;
+    left: 0;
+    line-height: 1.01rem;
+}
+.a{
+    width: 5.19rem;
+    height: 4.55rem;
+}

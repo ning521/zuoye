@@ -1,0 +1,72 @@
+.reduce{
+    width: 0.29rem;
+    height: 0.29rem;
+    font-family: iconfont;
+    color:#1981eb;
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0.5rem;
+    font-size: 0.25rem;
+}
+.red span{
+    color: black;
+    position: absolute;
+    bottom: 0.26rem;
+    right: 0.38rem;
+}
+.one{
+    width: 0.26rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.white{
+    background: white;
+    position: relative;
+}
+.ash{
+    position: relative;
+    background: #eeeeee;
+}
+.three{
+    width: 0.26rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0.17rem;
+    left: 0.98rem;
+}
+.blue{
+    color: #1981eb;
+}
+.price{
+    font-size: 0.3rem;
+    position: absolute;
+    top:0;
+    left:1.61rem;
+    color: white;
+}
+.price s{
+    font-size: 0.18rem;
+    color: #bebdbd;
+}
+.green{
+    background-color: #19eb63;
+}
+.discount{
+    width: 7.5rem;
+    height: 0.67rem;
+    background-color: #f1fcb5;
+    line-height: 0.67rem;
+    position: fixed;
+    bottom: 1.01rem;
+    left: 0;
+}
+.discount p{
+    height: 0.23rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #040404;
+    opacity: 0.6;
+    text-align: center;
+}

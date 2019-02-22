@@ -1,0 +1,18 @@
+.yes{
+    width: 0.22rem;
+    height: 0.22rem;
+    float: right;
+    margin-top: 0.11rem;
+    margin-right: 0.12rem;
+}
+.top{
+    margin-top: 0.46rem;
+}
+.bottom{
+    position: absolute;
+    top:0.95rem;
+    left: 0.2rem;
+}
+#blue{
+    background-color: #1981eb;
+}

@@ -1,0 +1,410 @@
+﻿/*清除浏览器默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*首页导航开始*/
+.header{
+    width: 100%;
+    height: 79px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 99;
+
+}
+.cantainer-box{
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    z-index:999;
+}
+.cantainer{
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+}
+.cantainer-left{
+    width:150px;
+    height:79px;
+    float: left;
+}
+.cantainer-left img{
+    width:150px;
+    margin-top: 15px;
+}
+.cantainer-right{
+    width:602px;
+    height:79px;
+    float: right;
+}
+.right-list{
+    width: 86px;
+    height: 79px;
+    text-align: center;
+    float: left;
+}
+.right-list a{
+    line-height: 79px;
+    color:white;
+    display: initial;
+}
+#blue a{
+    line-height: 79px;
+    color:#62a8ea;
+}
+.right-list a:hover{
+    line-height: 79px;
+    color: #62a8ea;
+}
+.dots{
+    width:100px;
+    height:10px;
+    position:absolute;
+    right:580px;
+    bottom:20px;
+}
+.dot{
+    width:10px;
+    height:10px;
+    background: rgba(255,255,255,0.3);
+    border-radius:50%;
+    margin: 0 5px;
+    float:left;
+}
+.hover{
+    background:rgba(0,0,0,0.3);
+}
+.cart{
+    width: 100%;
+    height: 759px;
+    position: relative;
+}
+.cart img{
+    width: 100%;
+    height: 759px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.left{
+    width: 202px;
+    height: 759px;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 11;
+}
+.left:hover{
+    background-image: linear-gradient(to right,rgba(0, 0, 0,0.2),transparent);
+}
+.btn-left{
+    width: 41px;
+    height: 69px;
+    position:absolute;
+    left:80px;
+    top:345px;
+    background-image: url(../img/icon-slides.png);
+    background-position: 83px 0;
+    display: none;
+}
+.right{
+    width: 202px;
+    height: 759px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.right:hover{
+    background-image: linear-gradient(to left,rgba(0, 0, 0,0.2),transparent);
+}
+.btn-right{
+    width: 41px;
+    height: 69px;
+    position:absolute;
+    right:80px;
+    top:345px;
+    background-image: url(../img/icon-slides.png);
+    background-position: 42px 0;
+    display: none;
+}
+.left:hover .btn-left{
+    display: initial;
+}
+.right:hover .btn-right{
+    display: initial;
+}
+/*首页导航结束*/
+/*素馨花艺开始*/
+.sxhy-box{
+    width: 100%;
+    height: 604px;
+    padding: 70px 0;
+}
+.sxhy{
+    width: 1140px;
+    height: 604px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.sxhy-title{
+    width:100%;
+    height: 43px;
+    text-align: center;
+    color: #37474f;
+    margin-bottom: 11px;
+    font-size: 36px;
+    font-weight: 300;
+    position: relative;
+}
+.sxhy-title a{
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 2px;
+    padding: 5px 13px;
+    background: #3cafff;
+    position: absolute;
+    top:10px;
+    right: 430px;
+}
+.sxhy p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #5e7387;
+    margin-bottom: 60px;
+}
+.sxhy-list{
+    width: 1020px;
+    height: 476px;
+    padding: 0 60px;
+}
+.item{
+    width: 320px;
+    height: 454px;
+    float: left;
+    margin-right: 30px;
+}
+#margin{
+    margin-right: 0;
+}
+.item-one{
+    width: 320px;
+    height: 418px;
+}
+.item-one img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.one-text{
+    width: 320px;
+    height: 76px;
+    text-align: center;
+}
+.one-text h4{
+    color: #37474f;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.one-text p{
+    color: #747474;
+    font-size: 15px;
+    text-align: left;
+}
+.one-bottom{
+    width:288px;
+    height: 22px;
+    background: #f96868;
+    padding: 6px 16px;
+    border-radius:3%;
+    margin-top: 10px;
+}
+.bottom{
+    font-size: 14px;
+    color: white;
+}
+.bottom i{
+    color: #9C2115;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.sxhy-left{
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 238px;
+}
+.sxhy-left i{
+    font-size: 40px;
+    color: #a3afb7;
+}
+.sxhy-right{
+    float: left;
+    position: absolute;
+    right: 10px;
+    top: 238px;
+}
+.sxhy-right i{
+    font-size: 40px;
+    color: #a3afb7;
+}
+/*素馨花艺结束*/
+/*素馨花语开始*/
+.huayu-box{
+    width: 100%;
+    height: 567px;
+    padding: 70px 0;
+    background: #f5f5f5;
+}
+.huayu{
+    width: 1140px;
+    height: 576px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 11px;
+}
+.huayu-list{
+    width: 1140px;
+    height: 504px;
+    margin-top: 20px;
+}
+.husyu-list-one{
+    width: 555px;
+    height: 96px;
+    margin-top: 30px;
+    float: left;
+}
+.one-left img{
+    width: 160px;
+    height: 96px;
+    float: left;
+    border-radius: 5%;
+}
+.one-right{
+    width: 375px;
+    height: 96px;
+    float: right;
+    text-align: left;
+}
+.one-right a{
+    font-weight: 400;
+    color: #2a333c;
+    font-size: 18px;
+}
+.des{
+    width: 375px;
+    height: 42px;
+    margin-bottom: 5px;
+    color: #76838f;
+    font-size: 14px;
+}
+.huayu-list-one-bottom{
+    width: 375px;
+    height: 21px;
+    color: #76838f;
+    font-weight: 300;
+    font-size: 13px;
+}
+.huayu-list-one-bottom span{
+    margin-right: 10px;
+
+}
+.huayu-right{
+    float: right;
+}
+/*素馨花语结束*/
+/*素馨花卉工作室开始*/
+.work-box{
+    width: 100%;
+    height: 765px;
+    padding: 70px 0;
+}
+.work{
+    width: 1140px;
+    height: 765px;
+    margin: 0 auto;
+}
+.work-text{
+    width:1080px;
+    height: 612px;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.work-text p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #222;
+    margin-bottom: 10px;
+}
+#first{
+    margin-bottom: 30px;
+}
+.work-text img{
+    margin-top: 20px;
+}
+/*素馨花卉工作室结束*/
+/*底部开始*/
+.footer-box{
+    width: 100%;
+    height: 182px;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    color: #aaaaaa;
+    text-align: center;
+}
+.footer-title{
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    border-top: 1px solid #f0f2f5;
+}
+.footer-qq{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    padding-top:20px;
+}
+.footer-qq i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.wx{
+    color: green;
+}
+.wx:hover{
+    color: #00ab00;
+}
+.qq{
+    color: #3cafff;
+}
+.qq:hover{
+    color: #76daff;
+}
+.footer-bottom a{
+    color: #62a8ea;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.footer-bottom a:hover{
+    color: #64b6f9;
+    text-decoration: underline;
+}
+.footer-box p{
+    color: #aaaaaa;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+/*底部结束*/

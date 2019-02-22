@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/登录.css">
+    <title>登录</title>
+</head>
+<body>
+<div class="mask "></div>
+<!--登录框-->
+<form action="">
+<div class="box ">
+    <a href="注册.html"><input type="button" class="register" value="注册"></a>
+    <div class="shadow"></div>
+    <div class="shadow1"></div>
+    <div class="information">
+        <div class="name">
+            <img src="img/姓名.png" alt="">
+            <div class="name1"><input type="text" placeholder="●请输入账号" required="true" pattern="\d{11}" id="userName"></div>
+        </div>
+        <div class="name">
+            <img src="img/密码.png" alt="">
+            <div class="name1"><input type="password" placeholder="●请输入密码" required></div>
+        </div>
+        <div class="password">
+           <p><input type="radio" value="" >记住密码</p>
+           <p><input type="radio" value="">忘记密码</p>
+        </div>
+        <div class="login"><a href="个人中心.html"><input type="button" value="登录"></a></div>
+    </div>
+    <div class="thirdLogin">
+        <i>&#xe615;</i>
+        <p>第三方登录</p>
+        <i>&#xe615;</i>
+    </div>
+    <div class="photo">
+        <img src="img/qq.png" alt="">
+        <img src="img/weixin.png" alt="">
+        <img src="img/zhifubao.png" alt="">
+    </div>
+</div>
+</form>
+<!--第三方登录-->
+
+</body>
+<!--账号验证-->
+<!--<script>
+    var userName=document.getElementById("userName");
+    userName.onblur=function () {
+        if(userName.validity.patternMismatch){
+            userName.setCustomValidity("账号只能是11位数字的手机号！");
+        }else if(userName.validity.valueMissing){
+            userName.setCustomValidity("用户名不能为空！");
+        }else{
+            userName.setCustomValidity("");
+        }
+
+    }
+</script>-->
+</html>

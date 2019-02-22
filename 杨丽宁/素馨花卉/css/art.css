@@ -1,0 +1,109 @@
+/*头部*/
+.art-box{
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index:999;
+    border-bottom: 1px solid #bdbdbd;
+}
+.art-list{
+    width: 86px;
+    height: 79px;
+    text-align: center;
+    float: left;
+}
+.art-list a{
+    line-height: 79px;
+    color:black;
+    font-size: 14px;
+}
+.art-list a:hover{
+    line-height: 79px;
+    color: #62a8ea;
+}
+.art-list a:hover .suggest{
+    line-height: 79px;
+    color: #62a8ea;
+}
+/*内容*/
+main{
+   width: 1349px;
+    height: 1089px;
+    margin-top: 79px;
+}
+.main-left{
+    width: 50%;
+    height: 532.5px;
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 11;
+}
+.mask:hover{
+    background: rgba(0,0,0,0.4);
+}
+.main-left img{
+    width: 100%;
+    height: 532.5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.main-left:hover img{
+    transform: scale(1.1);
+}
+.middle{
+    width: 150px;
+    height: 137px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.76);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 12;
+}
+.middle i{
+    font-family: iconfont;
+}
+.middle p:nth-child(1){
+    font-size: 12px;
+}
+.middle p:nth-child(3){
+    font-size: 24px;
+}
+.middle>a{
+    width: 28px;
+    height: 22px;
+    border: 1px solid white;
+    padding: 6px 15px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.76);
+    border-radius: 5.5px;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1019575 */
+    src: url('//at.alicdn.com/t/font_1019575_f7zro7uik8s.eot');
+    src: url('//at.alicdn.com/t/font_1019575_f7zro7uik8s.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1019575_f7zro7uik8s.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1019575_f7zro7uik8s.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1019575_f7zro7uik8s.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1019575_f7zro7uik8s.svg#iconfont') format('svg');
+}
